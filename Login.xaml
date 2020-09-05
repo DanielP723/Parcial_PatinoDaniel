@@ -1,0 +1,18 @@
+﻿<Page x:Class="Parcial_PatiñoDaniel.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Parcial_PatiñoDaniel"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid Background="#FFFDE656" Height="370">
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="400,110,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="400,206,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18"/>
+        <TextBox Name="txtUsuario" HorizontalAlignment="Left" Margin="400,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontFamily="Comic Sans MS" FontSize="18" TextChanged="txtUsuario_TextChanged"/>
+        <PasswordBox Name="txtContraseña" HorizontalAlignment="Left" Margin="400,241,0,0" VerticalAlignment="Top" Width="150" FontFamily="Comic Sans MS" FontSize="18" PasswordChar="*" PasswordChanged="txtContraseña_PasswordChanged"/>
+
+    </Grid>
+</Page>

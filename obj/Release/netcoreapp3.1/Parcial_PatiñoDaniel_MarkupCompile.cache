@@ -1,18 +1,18 @@
 ﻿Parcial_PatiñoDaniel
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\Daniel\Desktop\VisualStudio\Parcial_PatiñoDaniel\obj\Debug\netcoreapp3.1\
+C:\Users\Daniel\Desktop\VisualStudio\Parcial_PatiñoDaniel\obj\Release\netcoreapp3.1\
 Parcial_PatiñoDaniel
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1
 C:\Users\Daniel\Desktop\VisualStudio\Parcial_PatiñoDaniel\App.xaml
 4-1454593257
 
-81649180501
+6-375889482
 1921654412462
 Administrador.xaml;Empleados.xaml;Login.xaml;MainWindow.xaml;
 

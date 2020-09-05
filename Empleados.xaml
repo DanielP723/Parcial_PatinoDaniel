@@ -1,0 +1,41 @@
+﻿<Page x:Class="Parcial_PatiñoDaniel.Empleados"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Parcial_PatiñoDaniel"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="800"
+      Title="Empleados">
+
+    <Grid Background="#FFFDE656">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="779*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="291*"/>
+            <RowDefinition Height="89*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Nombre del cliente" HorizontalAlignment="Left" Margin="18,60,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Height="35" Width="170" Grid.Column="1"/>
+        <Label Content="Cédula" HorizontalAlignment="Left" Margin="18,96,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="170" Height="35" Grid.Column="1"/>
+        <TextBox Name="txtCliente" HorizontalAlignment="Left" Margin="204,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS" FontSize="18" Height="35" Grid.Column="1"/>
+        <TextBox Name="txtCédula" HorizontalAlignment="Left" Margin="204,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS" FontSize="18" Height="35" Grid.Column="1"/>
+        <Button Name="btnVender" Content="Vender" Margin="18,20,641,34" FontFamily="Comic Sans MS" FontSize="18" Background="White" Height="35" Width="120" Grid.Row="1" Grid.Column="1" Click="btnVender_Click" />
+        <Label Content="Empleado" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" Height="45" FontFamily="Comic Sans MS" FontSize="24" Grid.Column="1"/>
+        <Button Name="btnQuitar" Content="Quitar" HorizontalAlignment="Left" Margin="264,211,0,0" VerticalAlignment="Top" Click="btnQuitar_Click" Height="35" Width="80" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <Label Name="lblPrecio" Content="" HorizontalAlignment="Left" Margin="157,276,0,0" VerticalAlignment="Top" Width="120" Height="35" Grid.Column="1" Grid.RowSpan="2"/>
+        <Label Content="Valor a pagar" HorizontalAlignment="Left" Margin="18,276,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Comic Sans MS" Width="120" Height="35" Grid.Column="1" Grid.RowSpan="2"/>
+        <Button Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="264,161,0,0" VerticalAlignment="Top" Click="Button_Click" Grid.Column="1" FontSize="18" FontFamily="Comic Sans MS" Width="80" Height="35"/>
+        <ListBox Name="lbProductos" Grid.Column="1" Margin="379,60,226,51" Grid.RowSpan="2" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Label Name="lblNombre" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="582,60,0,0" VerticalAlignment="Top" Width="170" Height="35" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Label Name="lblCédula" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="582,96,0,0" VerticalAlignment="Top" Height="35" Width="170" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Label Name="lblHora" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="582,131,0,0" VerticalAlignment="Top" Width="170" Height="35" FontFamily="Comic Sans MS" FontSize="18"/>
+        <Label Content="Aliñado" HorizontalAlignment="Left" Margin="18,146,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="170" Height="35" Grid.Column="1"/>
+        <Label Content="No aliñado" HorizontalAlignment="Left" Margin="18,180,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="170" Height="35" Grid.Column="1"/>
+        <Label Content="Especial" HorizontalAlignment="Left" Margin="18,214,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18" Width="170" Height="35" Grid.Column="1"/>
+        <TextBox Name="txtAliñado" HorizontalAlignment="Left" Margin="202,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" FontFamily="Comic Sans MS" FontSize="18" Height="30" Grid.Column="1"/>
+        <TextBox Name="txtNoaliñado" HorizontalAlignment="Left" Margin="202,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" FontFamily="Comic Sans MS" FontSize="18" Height="30" Grid.Column="1"/>
+        <TextBox Name="txtEspecial" HorizontalAlignment="Left" Margin="202,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" FontFamily="Comic Sans MS" FontSize="18" Height="30" Grid.Column="1"/>
+    </Grid>
+</Page>

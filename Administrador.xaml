@@ -1,0 +1,14 @@
+﻿<Page x:Class="Parcial_PatiñoDaniel.Administrador"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Parcial_PatiñoDaniel"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="800"
+      Title="Administrador">
+
+    <Grid Background="#FFFDE656">
+        <Label Content="Bienvenido Administrador" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="18"/>
+    </Grid>
+</Page>
