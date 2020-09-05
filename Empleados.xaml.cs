@@ -47,7 +47,6 @@ namespace Parcial_PatiñoDaniel
             lbProductos.Items.Add("No aliñado x" + txtNoaliñado.Text);
             lbProductos.Items.Add("Especial x" + txtEspecial.Text);
 
-            lblPrecio.Content = (1000) * (Int32 (txtEspecial));
         }
     }
 }
